@@ -1,0 +1,14 @@
+.svg-chart .background {
+        shape-rendering: crispEdges;
+        stroke: #ccc;
+        fill: #fdfdfd;
+        stroke-width: 1px;
+      }
+
+.svg-chart .bar { fill: #4682B4; }
+
+.barchart-demo{
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;		
+}

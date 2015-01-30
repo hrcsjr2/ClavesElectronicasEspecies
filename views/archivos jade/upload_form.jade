@@ -1,0 +1,11 @@
+doctype html
+html
+    head
+        title Upload Form
+    body
+        h1 Upload File
+        form(method="POST", action="/upload", enctype="multipart/form-data")
+            input(type="file", 
+            name="file", 
+            accept=".csv, .xlsx, .xls")
+            input(type="submit")

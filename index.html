@@ -1,0 +1,17 @@
+	<!--Código elaborado por: Herman Camacho Sánchez.-->
+	<!--Descripción: Formulario para subir documentos-->
+	<form method="post" action="/upload" enctype="multipart/form-data" id="frmSubirArchivo">
+		<fieldset>
+			<label for="hoja">Nombre de la Hoja:</label>
+			<input type="text" name="hoja" id="hoja" value="" class="ui-widget-content ui-corner-all" style="width: 100%;" placeholder="Digite la hoja que se buscará."/><br />
+		</fieldset>
+		<div id="drop">			
+			<a id="SubirArchivo">Buscar Archivo</a>
+			<input type="file" name="file" id="upl" accept=".xlsx, .xls" style="display: none;"/><br/>
+		</div>
+		<ul style="display: none">
+			<!-- The file uploads will be shown here -->
+		</ul>	
+		
+		<input type="submit" id='btnEnviar' name="enviar" value="Cargar Archivo" style="display:none;"/>
+	</form>
